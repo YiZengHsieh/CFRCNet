@@ -1,0 +1,1 @@
+('/media/cihci/0000678400004823/andy_master/code/demo/left/A00000010.png', 'img(*.jpg *.png)')

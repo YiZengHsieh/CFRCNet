@@ -1,0 +1,29 @@
+#create environment
+python3 -m venv (environment name)
+python3.7 -m venv (environment name)
+
+#acivate environment
+source (environment name)/bin/activate
+
+cd /media/cihci/0000678400004823/andy_master
+source andy/bin/activate
+cd /media/cihci/0000678400004823/andy_master/code/pytorch-sepconv
+
+cd /media/cihci/0000678400004823/andy_master
+source mask_sepconv/bin/activate
+cd /media/cihci/0000678400004823/andy_master/code/Mask_RCNN
+python test_mask_resize.py
+
+cd /media/cihci/0000678400004823/andy_master
+source aanet/bin/activate
+
+
+cd /media/cihci/0000678400004823/andy_master/code/ACVNet
+conda activate acvnet
+cd /media/cihci/0000678400004823/andy_master
+
+
+#deactivate environment
+deactivate
+
+
